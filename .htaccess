@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^localhost/projetos/miniFrameworPhp$ [NC,OR] RewriteCond %{HTTP_HOST} ^localhost/projetos/miniFrameworkPhp$
+RewriteCond %{REQUEST_URI} !public/
+RewriteRule (.*) public/$1 [L]

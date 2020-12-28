@@ -1,0 +1,16 @@
+{
+    "name": "luis/mini-framework-php",
+    "description": "Mini framework PHP para criaçao de sites MVC",
+    "authors": [
+        {
+            "name": "luisvulcanis",
+            "email": "luisvulcanis@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    }
+}
